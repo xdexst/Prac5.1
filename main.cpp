@@ -10,3 +10,17 @@ int main() {
     cout << boolalpha;
     cout << "In1:" << logElement.getIn1() << endl;
     cout << "In2:" << logElement.getIn2() << endl
+	
+return 0;
+}
+class LogElement {
+private:
+    bool _in1;
+    bool _in2;
+
+public:
+    void setIn1(bool newIn1);
+    void setIn2(bool newIn2);
+    bool getIn1();
+    bool getIn2();
+};
