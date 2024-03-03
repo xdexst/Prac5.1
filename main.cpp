@@ -32,3 +32,11 @@ void LogElement::setIn1(bool newIn1) {
 void LogElement::setIn2(bool newIn2) {
     _in2 = newIn2;
 }
+
+bool LogElement::getIn1() {
+    return _in1;
+}
+
+bool LogElement::getIn2() {
+    return _in2;
+}
