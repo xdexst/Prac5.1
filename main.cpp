@@ -24,3 +24,11 @@ public:
     bool getIn1();
     bool getIn2();
 };
+
+void LogElement::setIn1(bool newIn1) {
+    _in1 = newIn1;
+}
+
+void LogElement::setIn2(bool newIn2) {
+    _in2 = newIn2;
+}
